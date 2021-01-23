@@ -1,0 +1,119 @@
+body {
+    height: 100%;
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 84px;
+    background-color: #000000;
+}
+
+nav {
+    width: fit-content;
+    padding: 34px;
+    vertical-align: top;
+}
+
+.navbox {
+    width: 100%;
+}
+
+.mainnav {
+    display: inline-block;
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.link2 {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.link3 {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.link4 {
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+}
+
+.navlogo {
+    display: inline-block;
+    vertical-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 48px;
+    padding: 12px;
+    vertical-align: top;
+}
+
+.navsocials {
+    display: inline-block;
+    position: absolute;
+    right: 24px;
+    width: 30px;
+    padding: 32px;
+}
+
+.heroimg {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+    background: url('../images/heroimg.png') no-repeat center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%,-50%);
+    overflow: hidden;
+    text-align: left;
+    color: white;
+    font-weight: 700;
+}
+
+.container h1{
+    font-size: 96px;
+    letter-spacing: auto;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.container h2{
+    font-size: 24px;
+    letter-spacing: auto;
+    line-height: 0px;
+    font-weight: 100;
+}
