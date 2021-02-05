@@ -143,3 +143,31 @@ nav {
     background: white;
     border-radius: 8px;
 }
+
+footer{
+    display: block;
+    background-color: #1D1D1D;
+    height: 220px;
+    width: 100%;
+}
+
+.footerDiv{
+    display: block;
+    width: 100%;
+}
+
+.footerSocials{
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.footertext{
+    color: white;
+    line-height: 0;
+}
+
+.copyright{
+    color: #686868;
+    padding-top: 16px;
+}
